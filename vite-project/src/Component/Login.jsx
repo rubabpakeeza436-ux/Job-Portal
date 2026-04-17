@@ -3,7 +3,7 @@ import logo from '/JobZeelogo.png';
 import Image from '/login.png';
 import axios from 'axios';
 import toast from 'react-hot-toast';
-import app from '../../firebase.js';
+//import app from '../../firebase.js';
 import { useDispatch } from "react-redux";
 import { setUser } from "./../Redux/authSlice.js";
 import { useNavigate } from 'react-router-dom';
